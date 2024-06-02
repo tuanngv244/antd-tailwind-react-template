@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'SF-Black';
+  src: url('./assets/fonts/SF-Pro-Display-Black.otf') format('opentype');
+}
+@font-face {
+  font-family: 'SF-Bold';
+  src: url('./assets/fonts/SF-Pro-Display-Bold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'SF-Medium';
+  src: url('./assets/fonts/SF-Pro-Display-Medium.otf') format('opentype');
+}
+@font-face {
+  font-family: 'SF-MediumItatic';
+  src: url('./assets/fonts/SF-Pro-Display-MediumItatic.otf') format('opentype');
+}
+@font-face {
+  font-family: 'SF-Regular';
+  src: url('./assets/fonts/SF-Pro-Display-Regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'SF-Light';
+  src: url('./assets/fonts/SF-Pro-Display-Light.otf') format('opentype');
+}
+@font-face {
+  font-family: 'SF-LightItalic';
+  src: url('./assets/fonts/SF-Pro-Display-LightItalic.otf') format('opentype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 10px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #c4c4c4;
+  border-radius: 6px;
+  cursor: pointer;
+}
+*::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+html,
+body {
+  font-family: 'SF-Regular' !important;
+  line-height: 18px;
+}
+
+p,
+a,
+button,
+h4,
+h5,
+h6 {
+  font-size: 0.875rem;
+  color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  margin-bottom: 0;
+}
+
+body {
+  ::-webkit-scrollbar {
+    width: 0.3rem;
+    border-radius: 30rem;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 30rem;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 0.3rem;
+    border-radius: 30rem;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 30rem;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}
+
+.hidden-scroll {
+  ::-webkit-scrollbar {
+    width: 0.3rem;
+    border-radius: 30rem;
+    display: none;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 30rem;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 0.3rem;
+    border-radius: 30rem;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 30rem;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}

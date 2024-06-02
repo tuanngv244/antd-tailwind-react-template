@@ -1,0 +1,1 @@
+export const IVIWORK_LOCAL_TOKEN_KEY = `iviwork-login-key`;

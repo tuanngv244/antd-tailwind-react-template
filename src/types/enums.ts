@@ -1,0 +1,7 @@
+export enum EState {
+  TODO = 'TODO',
+  IN_PROGRESS = 'IN_PROGRESS',
+  COMPLETED = 'COMPLETED',
+  REJECT = 'REJECT',
+  EXPIRED = 'EXPIRED',
+}
